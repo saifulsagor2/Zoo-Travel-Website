@@ -52,8 +52,10 @@ nav img {
     display: inline-block;
     text-align: center;
     align-items: center;
-    background-image: border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    position: center;
+    border-radius: 15px;
     background-repeat: no-repeat;
     width: 1200px;
     height: 500px;
@@ -73,6 +75,42 @@ nav img {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+
+.banner-inputs {
+    padding: 29px;
+}
+
+.where {
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.when {
+    border-radius: 10px;
+    background: #FFF;
+    width: 170px;
+    height: 40px;
+}
+
+.select {
+    border-radius: 10px;
+    background: #FFF;
+    width: 170px;
+    height: 40px;
+}
+
+.find-now {
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15px;
 }
 
 /* <!-- Our Popular Tours Section Styles --> */
@@ -111,4 +149,198 @@ nav img {
     text-align: center;
     font-family: Mulish;
     font-size: 20px;
+}
+
+/* Destination Section Style */
+
+.grid-section {
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.Destination-header {
+    text-align: center;
+}
+
+.row1 {
+    border: 20px solid #FFF;
+}
+
+.row2 {
+    border: 20px solid #FFF;
+}
+
+.row3 {
+    border: 20px solid #FFF;
+}
+
+
+/* Why-Choose-Us Section Style */
+.why-choose-us {
+
+    margin-top: 50px;
+}
+
+.why-choose-us-header {
+    text-align: center;
+    align-items: center;
+}
+
+.first-line {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px;
+    margin-left: 180px;
+    gap: 20px;
+}
+
+.prmry-description-none {
+    width: 80%;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 15px;
+}
+
+.hotel {
+    width: 570px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.map {
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 570px;
+    height: 280px;
+}
+
+.price {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 450px;
+    width: 570px;
+    height: 280px;
+    color: #5A5A5D;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+    margin-top: -75px;
+}
+
+.why-choose-us-heading {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 25px;
+}
+
+/* A Simple Perfect Place To Get Lost Section Style */
+
+.a-simple-perfect {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.simple-list {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 700;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* For Mobile Device */
+
+@media screen and (max-width: 600px) {
+
+    .banner-container,
+    .our-popular-container {
+        flex-direction: column;
+    }
+
+    .header-container,
+    .a-simple-perfect {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        margin: 2px;
+        width: 100%;
+        background-position: center;
+    }
+
+    .banner-heading {
+        font-size: 25px;
+    }
+
+    .our-popular-container {
+
+        margin: 2px;
+        width: 100%;
+    }
+
+    .our-popular-description {
+        width: 100%;
+    }
+
+    .grid-img {
+        width: 335px;
+        height: 176px;
+        align-items: center;
+    }
+
+    .row1>img {
+        width: 335px;
+        height: 175px;
+    }
+
+    .row2>img {
+        width: 335px;
+        height: 175px;
+    }
+
+    .row3>img {
+        width: 335px;
+        height: 175px;
+    }
+
+    .why-choose-us {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        padding: 0;
+        margin-top: 1300px;
+    }
+
+    .first-line {
+        margin: 0px;
+        margin-left: 0px
+    }
+
+    .a-simple-perfect {
+        margin: 0px;
+        text-align: left;
+    }
+
+    .simple-video {
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+    }
+
+
 }
