@@ -3,6 +3,9 @@
 * {
     font-family: Mulish;
 }
+.prmry-btn :hover{
+    background-color: white;
+}
 
 .header-container {
     display: flex;
