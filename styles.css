@@ -3,10 +3,6 @@
 * {
     font-family: Mulish;
 }
-.prmry-btn :hover{
-    background-color: white;
-}
-
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -255,6 +251,18 @@ nav img {
     font-size: 25px;
 }
 
+
+/* Deals and Discount Section Style */
+
+.deals-container{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+.deals-img>img{
+    margin-bottom: 20px;
+}
+
 /* A Simple Perfect Place To Get Lost Section Style */
 
 .a-simple-perfect {
@@ -451,4 +459,33 @@ form>input {
         padding: 0px;
     }
 
+}
+
+
+/* FOr Laptops */
+
+@media screen and (max-width: 992px) {
+
+    .banner-container,
+    .our-popular-container {
+        flex-direction: column;
+    }
+
+    .header-container,
+    .a-simple-perfect {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        margin: 2px;
+        width: 100%;
+        background-position: center;
+    }
+    .banner-inputs {
+        flex-direction: column;
+    }
+
+    .banner-heading {
+        font-size: 25px;
+    }
 }
