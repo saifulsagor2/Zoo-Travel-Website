@@ -190,37 +190,37 @@ nav img {
 /* destination-image-container */
 .destination-image-container .grid-item1 {
     grid-area: grid-item1;
-    background: url("Images/Rectangle\ 5.png")
+    background: url("./Images/Rectangle\ 5.png")
 }
 
 .destination-image-container .grid-item2 {
     grid-area: grid-item2;
-    background: url("Images/Rectangle\ 8.png");
+    background: url("./Images/Rectangle\ 8.png");
 }
 
 .destination-image-container .grid-item3 {
     grid-area: grid-item3;
-    background: url("Images/Rectangle\ 6.png");
+    background: url("./Images/Rectangle\ 6.png");
 }
 
 .destination-image-container .grid-item4 {
     grid-area: grid-item4;
-    background: url("Images/Rectangle\ 7.png");
+    background: url("./Images/Rectangle\ 7.png");
 }
 
 .destination-image-container .grid-item5 {
     grid-area: grid-item5;
-    background: url("Images/Rectangle\ 9.png");
+    background: url("./Images/Rectangle\ 9.png");
 }
 
 .destination-image-container .grid-item6 {
     grid-area: grid-item6;
-    background: url("Images/Rectangle\ 10.png");
+    background: url("./Images/Rectangle\ 10.png");
 }
 
 .destination-image-container .grid-item7 {
     grid-area: grid-item7;
-    background: url("Images/Rectangle\ 11.png");
+    background: url("./Images/Rectangle\ 11.png");
 
 }
 
@@ -353,7 +353,7 @@ nav img {
 }
 
 .deals-discount .deals-card-container .deals-card-1 {
-    background: url("Images/Group\ 39.png");
+    background: url("./Images/Group\ 39.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -365,7 +365,7 @@ nav img {
 }
 
 .deals-discount .deals-card-container .deals-card-2 {
-    background: url("Images/Group\ 40.png");
+    background: url("./Images/Group\ 40.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -377,7 +377,7 @@ nav img {
 }
 
 .deals-discount .deals-card-container .deals-card-3 {
-    background: url("Images/Group\ 39.png");
+    background: url("./Images/Group\ 39.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
